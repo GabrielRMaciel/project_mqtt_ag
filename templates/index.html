@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplo de Projeto para Web</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+	<h1>Exemplo de Projeto para Web: Simulação MQTT + Flask + Chart.js</h1>
+	<canvas id="grafico"></canvas>
+	<script src="{{ url_for('static', filename='grafico.js') }}"></script>
+</body>
+</html>
